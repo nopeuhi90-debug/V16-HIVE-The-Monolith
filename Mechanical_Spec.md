@@ -1,8 +1,8 @@
-🛡️ V16-HIVE: Mechanical & Layout Constraints
+🛡️ V16-HIVE: Mechanical & Layout Constraints (Final)
 1. Central Hub Architecture & No-Fly Zone
 [English] Central Zone (40x40mm): This area is a strictly designated "No-Fly Zone." It is reserved exclusively for the XMOS XU316 MCU and OCXO/TCXO clocks. No other components or traces are allowed within this perimeter.
 
-Length Matching: All signal traces from the Central Hub to the four (4) Honeycomb slots must be routed with Equal-Length Traces. The length deviation must be kept under ±0.05mm to ensure zero-jitter synchronous data transmission across all modules.
+Length Matching: All signal traces from the Central Hub to the four (4) Honeycomb slots must be routed with Equal-Length Traces. The length deviation must be kept under ±0.05mm to ensure zero-jitter synchronous data transmission.
 
 [한국어] 중앙 구역 (40x40mm): 본 구역은 엄격히 지정된 '설계 금지 구역(No-Fly Zone)'입니다. 오직 XMOS XU316 MCU와 OCXO/TCXO 클럭만을 위해 예약되며, 이 영역 내부에는 어떠한 타 부품이나 배선도 허용되지 않습니다.
 
@@ -30,6 +30,4 @@ Stacking Precision: The vertical distance between the mainboard and adapter PCB 
 
 임피던스 표준: 16레인 UHI는 100Ω 차동 임피던스를 요구합니다. 배선은 반드시 일정한 간격을 유지하는 차동 페어(Differential Pairs)로 구성되어야 합니다.
 
-적층 정밀도: 메인보드 표면과 어댑터 PCB 사이의 수직 거리는 정확히 4.0mm로 유지되어야 합니다. ±0.1mm 이상의 오차는 기계적 결합 실패 또는 신호 열화를 초래합니다.
-
-For specific adapter design strategies and pin mapping, please refer to /Adapters/README.md.
+적층 정밀도: 메인보드 표면과 어댑터 PCB 사이의 수직 거리는 정확히 4.0mm로 유지되어야 하며, ±0.1mm 이상의 오차는 기계적 결합 실패 또는 신호 열화를 초래합니다.
