@@ -37,3 +37,8 @@ High-end Quad-Parallel DAC Architecture. Architecture by [Archmit_Director].
 ## ⚖️ License
 This project is licensed under **CC BY-NC 4.0** (Creative Commons Attribution-NonCommercial). 
 상업적 이용을 금하며, 인용 시 반드시 출처를 밝혀야 합니다.
+
+## 📂 Deep Dive into Technical Data
+- [Detailed Technical Specifications](./Technical_Specifications.md)
+- [40-Pin Slot Pinout Standard](./Pinout_Standard.md)
+- [Core Bill of Materials (BOM)](./BOM_List.csv)
