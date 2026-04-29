@@ -18,7 +18,7 @@ High-end Quad-Parallel DAC Architecture. Architecture by [Archmit_Director].
 - **Master Clock:** Ultra-precision MCLK with ±0.001mm length matching traces.
 
 ## 📐 Hardware Architecture (Top & Bottom)
-![Board Layout](./Board_Layout_View.png)
+![Board Layout](./TopBottom View.png)
 - **A-Side:** Signal paths and 4x Honeycomb Modular Slots.
 - **B-Side:** Massive power management with 32x ADI LT3045 parallel arrays.
 - **Isolation:** Strictly segmented ground and power isolation zones.
