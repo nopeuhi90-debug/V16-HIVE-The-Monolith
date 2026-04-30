@@ -162,6 +162,7 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 ---
 
 👹Creator's Note / 설계자 노트
+
 👹Original CAD/Source files are not included in this repository.
 
 👹원본 CAD 및 소스 파일은 이 레포지토리에 포함되어 있지 않습니다.
