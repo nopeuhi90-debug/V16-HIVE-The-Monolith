@@ -2,7 +2,9 @@
 건설 공학적 정밀함과 전자 회로의 무결성 (Construction Engineering meets Electronic Integrity)
 
 📋 Project Overview / 프로젝트 개요
+
 V16-HIVE is a high-end hardware project aiming for Defect-Zero quality. By merging structural stability with precision circuitry, it achieves absolute signal purity, isolated from all external noise.
+
 V16-HIVE 프로젝트는 하이엔드 하드웨어 설계의 무결점(Defect-Zero)을 목표로 합니다. 건축공학적 구조 안정성과 정밀 전자 회로 기술을 융합하여, 모든 외부 노이즈로부터 격리된 최상의 신호 순도를 구현했습니다.
 
 🛠 1. Assembly & Logic / 조립 및 논리 설계
