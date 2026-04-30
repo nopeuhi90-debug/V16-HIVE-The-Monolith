@@ -156,6 +156,8 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 
 📁 Assets/: High-resolution rendering assets / 고해상도 렌더링 자산
 
+<img width="653" height="611" alt="image" src="https://github.com/user-attachments/assets/cc20c4de-bc9f-444e-b073-e6185b41cb43" />
+
 
 👹Creator's Note / 설계자 노트👹
 "This repository contains the essence of uncompromising engineering. Every value and trace has been calculated for absolute performance."
