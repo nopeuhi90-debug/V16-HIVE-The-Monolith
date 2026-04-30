@@ -34,17 +34,23 @@ Layer 2: Optimized Analog Signal Routing (아날로그 경로 최적화)
 Layer 3: Jitter Suppression Circuitry (디지털 신호 정밀 보정)
 
 Layer 4: [Waterfall Power Delivery] / 폭포수 전원 공급
+
 Uses 2.0oz thick copper for a "waterfall" power plane.
+
 2.0oz 후막 구리를 사용한 폭포수형 전원 평면 설계.
 
 Layer 5: [Faraday Cage Shield] / 패러데이 케이지 차폐
+
 High-density via grid for internal signal protection.
+
 내부 신호 보호를 위한 고밀도 비아 그리드 차폐막.
 
 Layer 6: Physical Integrity Reinforcement (물리적 강성 보강 앵커)
 
 📊 3. Technical Specifications / 최종 기술 사양
+
 Final electrical specifications and engineering data sheets (Rev 2.1).
+
 장치의 최종 전기적 사양과 공학적 데이터 시트입니다.
 
 📂 Directory Guide / 폴더 구조 가이드
