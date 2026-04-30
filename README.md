@@ -161,11 +161,23 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 
 ---
 
-👹Creator's Note / 설계자 노트👹
-"This repository contains the essence of uncompromising engineering. Every value and trace has been calculated for absolute performance."
-
-"이 레포지토리는 타협하지 않는 공학적 정수를 담고 있습니다. 모든 수치와 배선은 완벽한 성능을 위해 계산되었습니다."
-
+👹Creator's Note / 설계자 노트
 👹Original CAD/Source files are not included in this repository.
 
 👹원본 CAD 및 소스 파일은 이 레포지토리에 포함되어 있지 않습니다.
+
+<br>
+
+---
+
+### ⚠️ **Notice: Design Asset Integrity / 설계 자산의 완결성 고지**
+
+**Original CAD source files (Altium/KiCad/STEP) are not included in this repository.** **원본 CAD 소스 파일(Altium/KiCad/STEP)은 본 레포지토리에 포함되어 있지 않습니다.**
+
+However, we provide comprehensive, high-resolution visual documentation and precise physical dimensions for every layer (L1–L6). These assets contain all necessary engineering data to understand the architectural essence of V16-HIVE.  
+하지만, 모든 레이어(L1~L6)에 대한 방대한 고해상도 시각 문서와 정밀한 물리적 수치를 제공합니다. 이 자산들은 V16-HIVE의 아키텍처 정수를 파악하기 위한 모든 필수 공학 데이터를 포함하고 있습니다.
+
+* **Visual Schematics:** Full trace logic and component placement details. / 전체 배선 로직 및 부품 배치 디테일 제공.
+* **Dimensional Accuracy:** Calculated values for absolute performance. / 절대적 성능을 위해 계산된 정밀 수치 포함.
+
+---
