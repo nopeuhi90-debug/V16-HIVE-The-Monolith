@@ -41,11 +41,11 @@
 
 ### **1. PCB Fabrication Requirements / PCB 제작 필수 사양**
 
-* **Copper Weight:** 2.0oz (Essential for L4 Waterfall Power logic). / Layer 4 폭포수 전원 로직을 위해 필수.
-* **Surface Finish:** **ENIG (Gold)** (Best compatibility with Silver Anchor Pads). / 은도금 앵커 패드와의 최상급 호환성.
-* **Material:** FR-4 High TG (Resistance to heat and physical stress). / 발열 및 물리적 변형 저항성 강화.
+* **Copper Weight:** 2.0oz (Essential for L4 Waterfall Power logic).
+* **Surface Finish:** **ENIG (Gold)** (Best compatibility with Silver Anchor Pads).
+* **Material:** FR-4 High TG (Resistance to heat and physical stress).
 
 ### **2. Recommended Solder / 권장 납재**
 
-* **Product:** **WBT-0800 (Silver Solder)** or equivalent lead-free silver solder. / 무연 은납 권장.
-* **Reason:** Complies with RoHS (<0.1% Lead) and maximizes L6 bonding. / RoHS 준수 및 Layer 6 결합력 극대화. ㅋ 👹
+* **Product:** **WBT-0800 (Silver Solder)** or equivalent lead-free silver solder.
+* **Reason:** Complies with RoHS (<0.1% Lead) and maximizes L6 bonding.
