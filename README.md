@@ -57,7 +57,7 @@ Uses 2.0oz thick copper for a "waterfall" power plane.
 
 2.0oz 후막 구리를 사용한 폭포수형 전원 평면 설계.
 
-[![Layer 4](./Hardware_Design/L4_Waterfall_Power_Plane.jpg)](./Hardware_Design/L4_Waterfall_Power_Plane.jpg)
+[![Layer 4](./Hardware_Design/L4_Waterfall_Power_Plane.png)](./Hardware_Design/L4_Waterfall_Power_Plane.png)
 
 Layer 5: [Faraday Cage Shield] / 패러데이 케이지 차폐
 
@@ -65,7 +65,7 @@ High-density via grid for internal signal protection.
 
 내부 신호 보호를 위한 고밀도 비아 그리드 차폐막.
 
-[![Layer 5](./Hardware_Design/L5_Faraday_Cage_Shield.jpg)](./Hardware_Design/L5_Faraday_Cage_Shield.jpg)
+[![Layer 5](./Hardware_Design/L5_Faraday_Cage_Shield.png)](./Hardware_Design/L5_Faraday_Cage_Shield.png)
 
 Layer 6: Physical Integrity Reinforcement (물리적 강성 보강 앵커)
 
