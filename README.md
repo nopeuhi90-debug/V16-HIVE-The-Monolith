@@ -2,7 +2,9 @@
 
 [![Status](https://img.shields.io/badge/Status-Rev%202.1%20Final-brightgreen)](https://github.com/nopeuhi90-debug/V16-HIVE-The-Monolith)
 [![Hardware](https://img.shields.io/badge/Hardware-PCB%20Design-orange)](https://github.com/nopeuhi90-debug/V16-HIVE-The-Monolith)
-[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
 
 🐝 V16-HIVE: The Defect-Zero Masterpiece (Rev 2.1)
 건설 공학적 정밀함과 전자 회로의 무결성 (Construction Engineering meets Electronic Integrity)
