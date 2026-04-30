@@ -1,65 +1,46 @@
-📁 01_Standard_Specs: 물리적·전기적 성전
-업체들이 "우리 제품에 구멍을 어디 뚫어야 해?"라고 물을 때 던져줄 문서입니다.
+📍 01_Standard_Specs: 40-Pin Master Interface Map
 
-Module_Interface_V1.pdf:
+[General Assignment Overview]
 
-육각형 모듈 외형 (지름 38mm, 변의 길이 21.94mm).
+V16-HIVE's 40-pin connector is optimized for power delivery, data communication, and high-precision clock synchronization.
 
-40핀 BTB 커넥터 실장 좌표: Center (0,0) 기준 정중앙 배치.
-
-PCB 두께: 1.6mm ~ 2.0mm (구조적 강성 확보 필수).
-
-V16_Pinout_Master.csv:
-
-L1~L16: 독립 16레인 전원 출력 (각 레인당 최대 2A 설계).
-
-HIVE-Link Data (SDA/SCL): 모듈 인식 및 데이터 통신용.
-
-Clock Sync (REF+ / REF-): 마스터 클럭 동기화 차동 신호.
+V16-HIVE의 40핀 커넥터는 전력 전송, 데이터 통신, 그리고 고정밀 클럭 동기화를 위해 최적화된 배치를 가집니다.
 
 
-
-📁 02_Hardware_Design: 3D 설계의 정수
-"백문이 불여일견", 업체들이 자기네 CAD 소프트웨어에서 바로 불러올 파일입니다.
-
-V16_Module_Base_Model.step:
-
-육각형 모듈의 표준 3D 형상 데이터.
-
-Thermal_Coupling_Guide.md:
-
-상단 나노 탄소 패드 부착 영역 설계도.
-
-"레이어 6 CNC 쉴드와 밀착 시 0.1mm 프리로드(Pre-load)를 유지할 것" 명시.
+Pin Group,Function,Description
+P01 - P16,Power Lanes (L1-L16),16-Lane Independent DC Supply (1.2V - 15V)
+P17 - P24,Analog/Digital GND,High-Density Grounding for EMI Cancellation
+P25 - P28,HIVE-Link (I2C/SMBus),"Module ID, Profile, and Status Communication"
+P29 - P32,Ref Clock (Differential),Master Clock Sync (REF+ / REF-) for Jitter Removal
+P33 - P40,Reserved / Shield,Future Expansion and Structural Grounding
 
 
+[Detailed Specification (상세 명세)]
 
-📁 03_Schematics: 전기적 DNA
-업체들이 회로를 짤 때 무조건 복사해서 붙여넣어야 할 레퍼런스입니다.
+1. Power Lanes (P01 - P16)
+EN: Each lane is physically isolated to prevent cross-channel interference. Max current per lane is rated at 2.0A.
 
-LT3045_Killer_Bank_Ref.pdf:
+KR: 각 레인은 채널 간 간섭을 방지하기 위해 물리적으로 격리되어 있습니다. 레인당 최대 허용 전류는 2.0A입니다.
 
-LT3045 8개를 병렬로 묶어 리플 노이즈를 살해하는 마스터 회로도.
 
-HIVE_Link_Reference_Circuit.png:
+2. HIVE-Link Communication (P25 - P28)
+EN: Supports I2C based protocol for module handshake. The base unit reads the HiveModuleProfile to auto-configure voltage.
 
-본체와 통신하기 위한 최소한의 MCU(또는 Logic IC) 구성도.
+KR: 모듈 핸드셰이크를 위한 I2C 기반 프로토콜을 지원합니다. 본체는 모듈의 프로필을 읽어 전압을 자동 설정합니다.
 
-"이 회로가 없으면 본체는 전력을 공급하지 않음" 경고 문구 삽입.
+
+3. Master Clock Sync (P29 - P32)
+EN: Differential pair for ultra-low jitter clock distribution. Essential for high-end DAC modules.
+
+KR: 초저지터 클럭 배분을 위한 차동 페어 신호입니다. 하이엔드 DAC 모듈 설계 시 필수적으로 연결해야 합니다.
 
 
 
-📁 04_BOM: 품질의 마지노선
-"가성비 찾다가 쓰레기 부품 쓰지 마라"고 명령하는 명단입니다.
+🛠️ How to use this Specs (규격서 활용법)
+Compliance: 튜닝 업체는 반드시 지정된 핀 맵에 맞춰 PCB 배선을 설계해야 합니다.
 
-Uncompromising_BOM_List.xlsx:
+Tuning builders must strictly follow the pin map for PCB routing.
 
-LDO: Analog Devices LT3045 (Fixed).
+Protection: 잘못된 핀 연결 시 Active Clamp 회로가 작동하여 시스템을 차단합니다.
 
-Resistors: Vishay Dale 0.1% 정밀 저항 권장.
-
-Connectors: Hirose 또는 Samtec 정품 40핀 BTB 필수.
-
-Anti_Counterfeit_Guide.md:
-
-알리익스프레스 등 검증되지 않은 곳에서의 부품 조달 금지 조항.
+Incorrect pin connection will trigger the Active Clamp circuit to isolate the module.
