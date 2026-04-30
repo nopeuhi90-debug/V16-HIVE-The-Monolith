@@ -65,4 +65,5 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 
 👹Creator's Note / 설계자 노트👹
 "This repository contains the essence of uncompromising engineering. Every value and trace has been calculated for absolute performance."
+
 "이 레포지토리는 타협하지 않는 공학적 정수를 담고 있습니다. 모든 수치와 배선은 완벽한 성능을 위해 계산되었습니다."
