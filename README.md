@@ -98,6 +98,12 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 
 📁 Assets/: High-resolution rendering assets / 고해상도 렌더링 자산
 
+## 📋 **4. BOM (Bill of Materials) / 부품 명세서**
+Full list of components required for assembly. Includes high-fidelity audio parts and structural reinforcement hardware. ㅋ 👹
+조립에 필요한 전체 부품 리스트입니다. 하이파이 오디오 부품 및 구조 보강용 하드웨어가 포함되어 있습니다.
+
+* **[View Full BOM List (CSV)](./BOM/V16-HIVE_BOM_Rev2.1_Final.csv)**: 누구나 구매하여 조립할 수 있는 상세 명세서
+
 
 
 👹Creator's Note / 설계자 노트👹
