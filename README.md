@@ -11,18 +11,11 @@ V16-HIVE 프로젝트는 하이엔드 하드웨어 설계의 무결점(Defect-Ze
 
 ## 🛠 **1. Assembly & Logic / 조립 및 논리 설계**
 
-### **[Master Schematic] - 전체 논리 회로도**
-[![Master Schematic](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)
-
-### **[Assembly Guide] - 최종 조립 가이드**
-[![Assembly Guide](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)
-
----
-
 The core intelligence and skeletal structure of the device.
 장치의 두뇌와 골격을 형성하는 핵심 데이터입니다.
 
-[Master Schematic] - 전체 논리 회로도
+### **[Master Schematic] - 전체 논리 회로도**
+[![Master Schematic](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)
 
 Defines the overall signal flow and power distribution logic.
 시스템의 신호 흐름과 전원 분배 로직을 정의합니다.
@@ -30,13 +23,17 @@ Defines the overall signal flow and power distribution logic.
 Key Feature: Optimized jitter suppression and ultra-low noise power paths.
 핵심 기능: 지터(Jitter) 억제 회로 및 초저노이즈 전원 경로 최적화.
 
-[Assembly Guide] - 최종 조립 가이드
+### **[Assembly Guide] - 최종 조립 가이드**
+[![Assembly Guide](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)
 
 Visualizes the assembly sequence and physical coupling of each module.
 각 모듈의 체결 순서와 물리적 결합 방식을 시각화한 가이드입니다.
 
 Key Feature: Anti-vibration and EMI-sealed structural guidance.
 핵심 기능: 진동 방지 및 EMI 차폐를 위한 완벽한 밀폐 구조 가이드.
+
+---
+
 
 
 
