@@ -79,7 +79,65 @@ Layer 6: Physical Integrity Reinforcement (물리적 강성 보강 앵커)
 
 [![Layer 6](./Hardware_Design/L6_Bottom_Anchor_Pads.jpg)](./Hardware_Design/L6_Bottom_Anchor_Pads.jpg)
 
-## 📊 **3. Technical Specifications / 최종 기술 사양**
+---
+
+## 📋 **3. BOM (Bill of Materials) / 부품 명세서**
+The complete list of high-end components required for V16-HIVE assembly.  
+V16-HIVE 조립을 위해 엄선된 하이엔드 부품 명세서입니다.
+
+### **[ Core Electronics / 핵심 소자 ]**
+| Part / 분류 | Brand - Model / 브랜드 - 모델명 | Qty / 수량 |
+| :--- | :--- | :--- |
+| **Main DAC** | ESS Technology - **ES9038PRO** | 1 |
+| **Op-Amp** | Texas Instruments - **OPA1612** | 4 |
+| **Clock (OSC)** | Crystek - **CCHD-957-25** | 1 |
+| **Power LDO** | Analog Devices - **LT3045** | 6 |
+
+<br>
+
+### **[ Passive & Hardware / 수동 소자 및 하드웨어 ]**
+| Part / 분류 | Brand - Model / 브랜드 - 모델명 | Qty / 수량 |
+| :--- | :--- | :--- |
+| **Capacitor** | **Nichicon Muse FG Series** | 12 |
+| **Transformer** | **Talema 70000 Series (30VA)** | 1 |
+| **I/O Jack** | **Neutrik Gold Plated Series** | 3 |
+| **Chassis** | **Custom 10mm CNC Aluminum** | 1 |
+
+<br>
+
+> 💡 **Tip:** For a more detailed version including technical roles and assembly notes, please check the **[Detailed BOM File](./BOM/V16-HIVE_BOM_Global.md)**.  
+> 💡 **팁:** 부품별 상세 역할과 조립 노트가 포함된 버전은 **[상세 BOM 파일](./BOM/V16-HIVE_BOM_Global.md)**에서 확인하실 수 있습니다.
+
+---
+
+## 🌡️ **Thermal & Safety / 발열 제어 및 안전**
+
+V16-HIVE uses its **10mm CNC Aluminum Chassis** as a primary heat dissipation system.
+V16-HIVE는 **10mm CNC 알루미늄 샤시**를 주요 방열 시스템으로 활용하여 장시간 구동에도 무결점 안정성을 유지합니다.
+
+* **Thermal Design:** Direct contact between high-heat components (ES9038PRO, LT3045) and the aluminum casing. / 고발열 소자와 알루미늄 케이스의 직접 접촉을 통한 방열 설계.
+* **Handling:** ESS chips and Op-Amps are sensitive to static. ESD protection is mandatory during assembly. / ESS 칩셋과 오디오 소자는 정전기에 민감하므로 조립 시 제전 조치가 필수적입니다.
+
+<br>
+
+## 📊 **Target Performance / 목표 성능 지표**
+
+| Parameter / 항목 | Target Value / 목표 수치 | Description / 상세 |
+| :--- | :--- | :--- |
+| **SNR** | **130dB+** | Signal-to-Noise Ratio / 신호 대 잡음비 |
+| **THD+N** | **< 0.0001%** | Total Harmonic Distortion + Noise / 전고조파 왜곡률 |
+| **Dynamic Range** | **140dB** | Depth of Audio Signal / 오디오 신호의 다이내믹 레인지 |
+
+<br>
+
+## 🌍 **Global Access & Policy / 글로벌 정책**
+
+* **Language:** All documents are provided in **English and Korean**. / 모든 문서는 영어와 한국어로 병기됩니다.
+* **Contribution:** We welcome global open-source contributors for hardware/firmware optimization. / 하드웨어 및 펌웨어 최적화를 위한 전 세계 기여자를 환영합니다.
+
+---
+
+## 📊 **4. Technical Specifications / 최종 기술 사양**
 
 ![System Specs](./Docs/V16-HIVE_System_Specs.jpg)
 ![Technical Data](./Docs/V16-HIVE_Technical_Data_Sheet.jpg)
@@ -97,13 +155,6 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 📁 Docs/: Technical specs & assembly instructions / 기술 명세 및 조립 지침서
 
 📁 Assets/: High-resolution rendering assets / 고해상도 렌더링 자산
-
-## 📋 **4. BOM (Bill of Materials) / 부품 명세서**
-Full list of components required for assembly. Includes high-fidelity audio parts and structural reinforcement hardware.
-조립에 필요한 전체 부품 리스트입니다. 하이파이 오디오 부품 및 구조 보강용 하드웨어가 포함되어 있습니다.
-
-* **[View Full BOM List (CSV)](./BOM/V16-HIVE_BOM_Rev2.1_Final.csv)**: 누구나 구매하여 조립할 수 있는 상세 명세서
-
 
 
 👹Creator's Note / 설계자 노트👹
