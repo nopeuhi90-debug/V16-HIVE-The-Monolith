@@ -165,3 +165,7 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 "This repository contains the essence of uncompromising engineering. Every value and trace has been calculated for absolute performance."
 
 "이 레포지토리는 타협하지 않는 공학적 정수를 담고 있습니다. 모든 수치와 배선은 완벽한 성능을 위해 계산되었습니다."
+
+👹Original CAD/Source files are not included in this repository.
+
+👹원본 CAD 및 소스 파일은 이 레포지토리에 포함되어 있지 않습니다.
