@@ -128,13 +128,6 @@ V16-HIVE는 **10mm CNC 알루미늄 샤시**를 주요 방열 시스템으로 �
 | **THD+N** | **< 0.0001%** | Total Harmonic Distortion + Noise / 전고조파 왜곡률 |
 | **Dynamic Range** | **140dB** | Depth of Audio Signal / 오디오 신호의 다이내믹 레인지 |
 
-<br>
-
-## 🌍 **Global Access & Policy / 글로벌 정책**
-
-* **Language:** All documents are provided in **English and Korean**. / 모든 문서는 영어와 한국어로 병기됩니다.
-* **Contribution:** We welcome global open-source contributors for hardware/firmware optimization. / 하드웨어 및 펌웨어 최적화를 위한 전 세계 기여자를 환영합니다.
-
 ---
 
 ## 📊 **4. Technical Specifications / 최종 기술 사양**
@@ -146,29 +139,27 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 
 장치의 최종 전기적 사양과 공학적 데이터 시트입니다.
 
-📂 Directory Guide / 폴더 구조 가이드
+<br>
 
-📁 Hardware_Design/: Detailed layer images (L1~L6) / 레이어별 설계 이미지
+---
 
-📁 Schematics/: Master logic circuit files / 논리 회로 마스터 파일
+## 📂 **Project Directory Guide / 폴더 구조 가이드**
 
-📁 Docs/: Technical specs & assembly instructions / 기술 명세 및 조립 지침서
+* **[Assets/](./Assets)** : High-resolution rendering & visual assets / 고해상도 렌더링 자산
+* **[BOM/](./BOM/Bill%20of%20Materials)** : Master Bill of Materials (Technical Specs) / 부품 명세서 및 기술 사양
+* **[Docs/](./Docs)** : Technical datasheets & construction manuals / 기술 데이터시트 및 매뉴얼
+* **[Hardware_Design/](./Hardware_Design)** : 6-Layer PCB design assets (L1-L6) / 레이어별 설계 데이터
+* **[Schematics/](./Schematics)** : Master logic circuit diagrams / 논리 회로 마스터 파일
 
-📁 Assets/: High-resolution rendering assets / 고해상도 렌더링 자산
+<br>
 
-## 📡 **Signal Flow Architecture / 시스템 구조도**
+## 🌍 **Global Access & Policy / 글로벌 정책**
 
-```mermaid
-graph LR
-    A[USB Input] --> B[ES9038PRO DAC]
-    B --> C[OPA1612 Analog Stage]
-    C --> D[XLR Balanced Output]
-    subgraph Power
-    E[Talema Transformer] --> F[LT3045 LDO]
-    F -.-> B
-    F -.-> C
-    end
+* **Language:** All documentation is maintained in **English and Korean**. / 모든 문서는 영어와 한국어로 유지됩니다.
+* **Contribution:** We welcome global open-source contributors for firmware & hardware optimization. / 전 세계 기여자의 참여를 환영합니다.
+* **License:** **CC BY-NC-SA 4.0** (Non-Commercial). / 상업적 이용 금지 및 저작자 표시 필수.
 
+---
 
 👹Creator's Note / 설계자 노트👹
 "This repository contains the essence of uncompromising engineering. Every value and trace has been calculated for absolute performance."
