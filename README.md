@@ -9,7 +9,15 @@ V16-HIVE 프로젝트는 하이엔드 하드웨어 설계의 무결점(Defect-Ze
 
 
 
-🛠 1. Assembly & Logic / 조립 및 논리 설계
+## 🛠 **1. Assembly & Logic / 조립 및 논리 설계**
+
+### **[Master Schematic] - 전체 논리 회로도**
+[![Master Schematic](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)](./Schematics/V16-HIVE_Master_Schematic_Final.jpg)
+
+### **[Assembly Guide] - 최종 조립 가이드**
+[![Assembly Guide](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)](./Docs/V16-HIVE_Master_Assembly_Guide.jpg)
+
+---
 
 The core intelligence and skeletal structure of the device.
 장치의 두뇌와 골격을 형성하는 핵심 데이터입니다.
@@ -59,7 +67,10 @@ Layer 6: Physical Integrity Reinforcement (물리적 강성 보강 앵커)
 
 
 
-📊 3. Technical Specifications / 최종 기술 사양
+## 📊 **3. Technical Specifications / 최종 기술 사양**
+
+![System Specs](./Docs/V16-HIVE_System_Specs.jfif.jfif)
+![Technical Data](./Docs/V16-HIVE_Technical_Data_Sheet.jfif.jfif)
 
 Final electrical specifications and engineering data sheets (Rev 2.1).
 
