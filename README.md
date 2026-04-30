@@ -48,9 +48,13 @@ Final electrical specifications and engineering data sheets (Rev 2.1).
 장치의 최종 전기적 사양과 공학적 데이터 시트입니다.
 
 📂 Directory Guide / 폴더 구조 가이드
+
 📁 Hardware_Design/: Detailed layer images (L1~L6) / 레이어별 설계 이미지
+
 📁 Schematics/: Master logic circuit files / 논리 회로 마스터 파일
+
 📁 Docs/: Technical specs & assembly instructions / 기술 명세 및 조립 지침서
+
 📁 Assets/: High-resolution rendering assets / 고해상도 렌더링 자산
 
 👹Creator's Note / 설계자 노트👹
