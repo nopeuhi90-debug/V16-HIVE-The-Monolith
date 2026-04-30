@@ -66,8 +66,8 @@ Layer 6: Physical Integrity Reinforcement (물리적 강성 보강 앵커)
 
 ## 📊 **3. Technical Specifications / 최종 기술 사양**
 
-![System Specs](./Docs/V16-HIVE_System_Specs.jfif.jfif)
-![Technical Data](./Docs/V16-HIVE_Technical_Data_Sheet.jfif.jfif)
+![System Specs](./Docs/V16-HIVE_System_Specs.jpg)
+![Technical Data](./Docs/V16-HIVE_Technical_Data_Sheet.jpg)
 
 Final electrical specifications and engineering data sheets (Rev 2.1).
 
