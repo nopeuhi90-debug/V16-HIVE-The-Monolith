@@ -1,39 +1,40 @@
 🐝 V16-HIVE: The Defect-Zero Masterpiece (Rev 2.1)
-🛠 Project Overview (English)
-V16-HIVE is a high-performance hardware project that integrates construction engineering safety standards with high-end audio design. The Rev 2.1 update resolves all physical and electrical vulnerabilities identified in the initial phase, achieving absolute signal integrity and sound purity.
-
-"Absolute engineering precision through construction-grade stability."
-
-🛠 프로젝트 개요 (Korean)
-V16-HIVE는 건설 공학적 안전 기준과 하이엔드 오디오 설계를 결합한 고성능 하드웨어 프로젝트입니다. Rev 2.1 업데이트를 통해 초기 단계에서 식별된 모든 물리적, 전기적 취약점을 해결하였으며, 완벽한 신호 무결성과 사운드 순도를 구현했습니다.
-
-"건설 등급의 안정성을 통한 절대적인 공학적 정밀함."
+🛠 Project Overview
+V16-HIVE는 건설 공학적 안전 기준과 하이엔드 오디오 설계를 결합한 고성능 하드웨어 프로젝트입니다. Rev 2.1 업데이트를 통해 모든 물리적, 전기적 취약점을 해결하였으며, 완벽한 신호 무결성을 구현했습니다.
 
 🚀 Key Innovations (Rev 2.1)
 1. Waterfall Power Delivery (Layer 4)
-2.0oz Thick Copper: Dual-thickness copper planes minimize impedance and power loss.
-
-Sector Isolation: Established wide silver power planes without meandering patterns to supply ultra-low noise power to each module.
-
-폭포수 전원 공급: 2.0oz 후막 구리 평면을 통해 임피던스와 전력 손실을 최소화했습니다. 지그재그 패턴이 배제된 광폭 은색 전원판을 통해 각 모듈에 초저노이즈 전력을 공급합니다.
+2.0oz 후막 구리 평면을 통해 임피던스와 전력 손실을 최소화했습니다. 광폭 은색 전원판을 통해 각 모듈에 초저노이즈 전력을 폭포수처럼 공급합니다.
 
 2. Continuous Faraday Cage (Layer 5)
-Via Stitching Defense: High-density via array (1.0mm pitch) forms a structural EMI shield.
+1.0mm 간격의 고밀도 비아 어레이와 순은 차폐 구조를 통해 외부 전자기파(EMI)를 99.9% 차단합니다.
 
-Pure Silver Shielding: 99.9% EMI suppression through a continuous silver-armored architecture.
+3. Mechanical Integrity (Layer 6)
+Neutrik 단자용 강화 은도금 앵커 포인트를 적용하여 물리적 내구성을 극대화했습니다.
 
-연속적 패러데이 케이지: 1.0mm 간격의 고밀도 비아 어레이가 구조적 EMI 차단막을 형성합니다. 순은 차폐 구조를 통해 외부 전자기파를 99.9% 차단합니다.
+📊 Technical Specifications & Data
+프로젝트의 세부 수치와 시스템 구성 사양입니다. 모든 데이터는 Rev 2.1 무결점 검증을 마쳤습니다.
+V16-HIVE System Specs,V16-HIVE Technical Data
+,
 
-3. Mechanical Integrity & Anchor Pads (Layer 6)
-Giant Anchor Pads: Reinforced silver-plated anchor points for Neutrik XLR/RCA terminals to ensure maximum physical durability and vibration control.
+🔍 Hardware Design Layers (Gallery)
+전체 레이어 설계도 리스트입니다. 각 레이어는 특정 공학적 목적을 위해 정밀하게 보정되었습니다.
 
-Bottom-Layer Solidification: Enhanced structural rigidity of the base PCB to prevent warping under heavy cabling.
+L1: 10mm CNC Aluminum Shielding
 
-물리적 무결성: Neutrik 단자용 강화 은도금 앵커 포인트를 적용하여 물리적 내구성과 진동 제어를 극대화했습니다. 무거운 케이블 체결 시에도 기판 변형이 발생하지 않도록 바닥면 강성을 보강했습니다.
+L2: Optimized Analog Signal Routing
 
-Category,Specifications,Detail
-Noise Floor,-160dBm,EMI Zero Zone Achieved
-PCB Layer,6-Layer Masterpiece,Rev 2.1 Optimized Stack-up
-Power Stability,12x LT3045 LDO Bank,<0.8µV RMS Ultra-Low Noise
-Shielding,10mm CNC Aluminum,L-Shaped Isolation Barrier (L1)
-Mounting,9-Hole M-ATX Unified,5.0mm Silver Reinforced Rings
+L3: Jitter Suppression Circuitry
+
+L4: Waterfall Power Delivery
+
+L5: High-Density Faraday Cage
+
+L6: Physical Integrity Reinforcement
+
+📂 Repository Structure
+/Hardware_Design: Rev 2.1 무결점 Gerber 이미지 및 개별 레이어 도면.
+
+/Assets: 공식 3D 렌더링 및 비주얼 자산.
+
+/Docs: 최종 기술 명세서 및 시스템 사양 데이터 시트.
