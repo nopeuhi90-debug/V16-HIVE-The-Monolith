@@ -1,17 +1,13 @@
 # 📋 **V16-HIVE Master BOM (Bill of Materials)**
 
-**Project:** V16-HIVE Rev 2.1 (The Monolith)
-
----
-
 ### **1. Core Electronics / 핵심 반도체 및 지능형 소자**
 
 | 분류 | 브랜드 - 모델명 | 수량 | 역할 및 실장 위치 |
 | :--- | :--- | :--- | :--- |
-| **Main DAC** | ESS Technology - **ES9038PRO** | 1 | **Layer 3 Center**. 신호 변환의 심장. |
-| **Op-Amp** | Texas Instruments - **OPA1612** | 4 | **Layer 2 Analog Stage**. 초저왜곡 신호 증폭. |
-| **Clock** | Crystek - **CCHD-957-25** | 1 | **Layer 3 Clock Line**. 지터 차단 정밀 타이밍. |
-| **LDO** | Analog Devices - **LT3045** | 6 | **Layer 4 Power Plane**. 독립적 청정 전원 공급. |
+| **Main DAC** | ESS Technology - **ES9038PRO** | 1 | **Layer 3 Center**. 신호 변환의 심장부 역할을 수행합니다. |
+| **Op-Amp** | Texas Instruments - **OPA1612** | 4 | **Layer 2 Analog Stage**. 초저왜곡 신호 증폭을 담당합니다. |
+| **Clock** | Crystek - **CCHD-957-25** | 1 | **Layer 3 Clock Line**. 디지털 지터를 원천 차단합니다. |
+| **LDO** | Analog Devices - **LT3045** | 6 | **Layer 4 Power Plane**. 각 회로에 청정 전원 공급을 수행합니다. |
 
 <br>
 
@@ -19,10 +15,9 @@
 
 | 분류 | 브랜드 - 제품군 | 수량 | 특징 및 용도 |
 | :--- | :--- | :--- | :--- |
-| **Capacitor** | **Nichicon Muse FG** | 12 | 전원 필터링 및 풍부한 질감 확보. |
-| **Resistor** | **Vishay Dale CMF55** | 32 | 온도 변화에 따른 저항 변동 최소화. |
-| **Transformer** | **Talema 70000** | 1 | 자속 누설 차단 및 내부 노이즈 간섭 방지. |
-| **Film Cap** | **WIMA MKS4 / FKP** | 8 | 고주파 노이즈 제거 및 고역대 순도 보존. |
+| **Capacitor** | **Nichicon Muse FG** | 12 | 전원 필터링 및 풍부한 질감 확보를 위해 사용합니다. |
+| **Resistor** | **Vishay Dale CMF55** | 32 | 온도 변화에 따른 저항 변동 최소화 및 정밀도 유지용입니다. |
+| **Transformer** | **Talema 70000** | 1 | 자속 누설 차단 및 내부 노이즈 간섭을 방지합니다. |
 
 <br>
 
@@ -30,12 +25,9 @@
 
 | 분류 | 브랜드 - 모델명 | 수량 | 실장 및 조립 방법 |
 | :--- | :--- | :--- | :--- |
-| **XLR Jack** | **Neutrik NC3FAH** | 2 | **Layer 6 은도금 앵커 패드**에 직결. |
-| **USB Jack** | **Neutrik NAUSB-W-B** | 1 | 데이터 입력부. 후면 샤시에 강력 고정. |
-| **Case** | **Custom CNC Al** | 1 | **Layer 1**. 10mm 전자기 차폐체. |
-| **Assembly Bolt** | **304 Stainless M3** | 24 | 케이스 및 PCB 지지용 고강도 육각 볼트. |
-
----
+| **XLR Jack** | **Neutrik NC3FAH** | 2 | **Layer 6 은도금 앵커 패드**에 수직으로 직결합니다. |
+| **USB Jack** | **Neutrik NAUSB-W-B** | 1 | 데이터 입력부로 후면 샤시에 강력하게 볼트 고정합니다. |
+| **Case** | **Custom CNC Al** | 1 | **Layer 1**. 10mm 두께의 전자기 차폐체 역할을 수행합니다. |
 
 ## 🛠 **Assembly Standards / 조립 무결성 가이드**
 
