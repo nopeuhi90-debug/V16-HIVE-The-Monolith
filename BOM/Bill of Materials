@@ -1,23 +1,19 @@
 # 📋 **V16-HIVE Master BOM (Bill of Materials)**
 
-Project: V16-HIVE Rev 2.1 (The Monolith)
+**Project:** V16-HIVE Rev 2.1 (The Monolith)
+
+---
 
 ### **1. Core Electronics / 핵심 반도체 및 지능형 소자**
 
 | 분류 | 브랜드 - 모델명 | 수량 | 역할 및 실장 위치 |
 | :--- | :--- | :--- | :--- |
-| **Main DAC** | ESS Technology - **ES9038PRO** | 1 | **Layer 3 중심부**. 신호 변환의 심장. |
-| **Op-Amp** | Texas Instruments - **OPA1612** | 4 | **Layer 2 아날로그단**. 신호 증폭. |
-| **Clock** | Crystek - **CCHD-957-25** | 1 | **Layer 3**. 지터 차단 정밀 타이밍. |
-| **LDO** | Analog Devices - **LT3045** | 6 | **Layer 4**. 독립적 청정 전원 공급. |
+| **Main DAC** | ESS Technology - **ES9038PRO** | 1 | **Layer 3 Center**. 신호 변환의 심장. |
+| **Op-Amp** | Texas Instruments - **OPA1612** | 4 | **Layer 2 Analog Stage**. 초저왜곡 신호 증폭. |
+| **Clock** | Crystek - **CCHD-957-25** | 1 | **Layer 3 Clock Line**. 지터 차단 정밀 타이밍. |
+| **LDO** | Analog Devices - **LT3045** | 6 | **Layer 4 Power Plane**. 독립적 청정 전원 공급. |
 
 <br>
-
-Part / 분류,Brand - Model / 브랜드 - 모델명,Qty / 수량,Role & Placement / 역할 및 위치
-Main DAC,ESS Technology - ES9038PRO,1,Layer 3 Center. The heart of signal conversion. / 신호 변환의 심장.
-High-Fi Op-Amp,Texas Instruments - OPA1612,4,Layer 2 Analog Stage. Ultra-low distortion amplification. / 초저왜곡 신호 증폭.
-Ultra-low Jitter OSC,Crystek - CCHD-957-25,1,Layer 3 Clock Line. Eliminates digital jitter. / 디지털 지터 원천 차단.
-Ultra-low Noise LDO,Analog Devices - LT3045,6,Layer 4 Power Plane. Independent clean power delivery. / 독립적 청정 전원 공급.
 
 ### **2. Passive Components / 수동 소자**
 
@@ -25,15 +21,10 @@ Ultra-low Noise LDO,Analog Devices - LT3045,6,Layer 4 Power Plane. Independent c
 | :--- | :--- | :--- | :--- |
 | **Capacitor** | **Nichicon Muse FG** | 12 | 전원 필터링 및 풍부한 질감 확보. |
 | **Resistor** | **Vishay Dale CMF55** | 32 | 온도 변화에 따른 저항 변동 최소화. |
-| **Transformer** | **Talema 70000** | 1 | 자속 누설 차단 및 노이즈 간섭 방지. |
+| **Transformer** | **Talema 70000** | 1 | 자속 누설 차단 및 내부 노이즈 간섭 방지. |
+| **Film Cap** | **WIMA MKS4 / FKP** | 8 | 고주파 노이즈 제거 및 고역대 순도 보존. |
 
 <br>
-
-Part / 분류,Brand - Product Series / 브랜드 - 제품군,Qty / 수량,Description & Purpose / 특징 및 용도
-Audio Capacitor,Nichicon Muse FG (Fine Gold),12,Power filtering & signal coupling for rich texture. / 전원 필터링 및 풍부한 질감 확보.
-Precision Resistor,Vishay Dale CMF55 (1%),32,Gain control with minimal thermal drift. / 온도 변화에 따른 저항 변동 최소화.
-Power Transformer,Talema 70000 Series (Toroidal),1,Minimizes magnetic leakage and internal noise. / 자속 누설 차단 및 내부 노이즈 간섭 방지.
-Film Capacitor,WIMA MKS4 / FKP Series,8,High-frequency noise rejection & high-end purity. / 고주파 노이즈 제거 및 고역대 순도 보존.
 
 ### **3. Hardware & I/O / 구조 강화 및 인터페이스**
 
@@ -42,20 +33,19 @@ Film Capacitor,WIMA MKS4 / FKP Series,8,High-frequency noise rejection & high-en
 | **XLR Jack** | **Neutrik NC3FAH** | 2 | **Layer 6 은도금 앵커 패드**에 직결. |
 | **USB Jack** | **Neutrik NAUSB-W-B** | 1 | 데이터 입력부. 후면 샤시에 강력 고정. |
 | **Case** | **Custom CNC Al** | 1 | **Layer 1**. 10mm 전자기 차폐체. |
+| **Assembly Bolt** | **304 Stainless M3** | 24 | 케이스 및 PCB 지지용 고강도 육각 볼트. |
 
-🛠 Assembly Standards / 조립 무결성 가이드
+---
 
-1. PCB Fabrication Requirements / PCB 제작 필수 사양
+## 🛠 **Assembly Standards / 조립 무결성 가이드**
 
-Copper Weight: 2.0oz (Essential for L4 Waterfall Power logic). / Layer 4 폭포수 전원 로직을 위해 필수.
+### **1. PCB Fabrication Requirements / PCB 제작 필수 사양**
 
-Surface Finish: ENIG (Gold) (Best compatibility with Silver Anchor Pads). / 은도금 앵커 패드와의 최상급 호환성.
+* **Copper Weight:** 2.0oz (Essential for L4 Waterfall Power logic). / Layer 4 폭포수 전원 로직을 위해 필수.
+* **Surface Finish:** **ENIG (Gold)** (Best compatibility with Silver Anchor Pads). / 은도금 앵커 패드와의 최상급 호환성.
+* **Material:** FR-4 High TG (Resistance to heat and physical stress). / 발열 및 물리적 변형 저항성 강화.
 
-Material: FR-4 High TG (Resistance to heat and physical stress). / 발열 및 물리적 변형 저항성 강화.
+### **2. Recommended Solder / 권장 납재**
 
-2. Recommended Solder / 권장 납재
-
-Product: WBT-0800 (Silver Solder) or equivalent lead-free silver solder. / 무연 은납 권장.
-
-Reason: Complies with RoHS (<0.1% Lead) and maximizes L6 bonding. / RoHS 준수 및 Layer 6 결합력 극대화.
-
+* **Product:** **WBT-0800 (Silver Solder)** or equivalent lead-free silver solder. / 무연 은납 권장.
+* **Reason:** Complies with RoHS (<0.1% Lead) and maximizes L6 bonding. / RoHS 준수 및 Layer 6 결합력 극대화. ㅋ 👹
