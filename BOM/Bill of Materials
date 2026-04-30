@@ -2,7 +2,7 @@
 
 ### **1. Core Electronics / 핵심 반도체 및 지능형 소자**
 
-|분류 | 브랜드 - 모델명 | 수량 | 역할 및 실장 위치 |
+| 분류 | 브랜드 - 모델명 | 수량 | 역할 및 실장 위치 |
 | :--- | :--- | :--- | :--- |
 | **Main DAC** | ESS Technology - **ES9038PRO** | 1 | **Layer 3 Center**. 신호 변환의 심장부 역할을 수행합니다. |
 | **Op-Amp** | Texas Instruments - **OPA1612** | 4 | **Layer 2 Analog Stage**. 초저왜곡 신호 증폭을 담당합니다. |
