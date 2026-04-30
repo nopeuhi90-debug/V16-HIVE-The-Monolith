@@ -30,3 +30,10 @@ Giant Anchor Pads: Reinforced silver-plated anchor points for Neutrik XLR/RCA te
 Bottom-Layer Solidification: Enhanced structural rigidity of the base PCB to prevent warping under heavy cabling.
 
 물리적 무결성: Neutrik 단자용 강화 은도금 앵커 포인트를 적용하여 물리적 내구성과 진동 제어를 극대화했습니다. 무거운 케이블 체결 시에도 기판 변형이 발생하지 않도록 바닥면 강성을 보강했습니다.
+
+Category,Specifications,Detail
+Noise Floor,-160dBm,EMI Zero Zone Achieved
+PCB Layer,6-Layer Masterpiece,Rev 2.1 Optimized Stack-up
+Power Stability,12x LT3045 LDO Bank,<0.8µV RMS Ultra-Low Noise
+Shielding,10mm CNC Aluminum,L-Shaped Isolation Barrier (L1)
+Mounting,9-Hole M-ATX Unified,5.0mm Silver Reinforced Rings
